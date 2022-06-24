@@ -144,7 +144,12 @@ body {
 
 @media screen and (max-width: 480px) {
   .container {
-    margin-left: 1rem;
+    width: 300px;
+    height: 80vh;
+    background-color: var(--blue-2);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
   }
   .weather-data {
     margin: auto;
@@ -154,6 +159,5 @@ body {
   .more-info-container {
     margin: auto;
     margin-top: 1.5em;
-    margin-right: 1em;
   }
 }
